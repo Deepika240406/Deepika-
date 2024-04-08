@@ -310,7 +310,7 @@ thead tr th {
   position: absolute;
   height: 100%;
   width: 0;
-  background-color: #0072ff;
+  background-color: #4caf50;
   animation: fillWidth 2s ease-in-out forwards;
 }
 
@@ -331,7 +331,7 @@ thead tr th {
     width: 0;
   }
   to {
-    width: 60%;
+    width: 100%;
   }
 }
 /*-------------projects----------*/
