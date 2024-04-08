@@ -287,53 +287,48 @@ thead tr th {
 }
 /*-------------------skills---------------*/
 .skills {
+  max-width: 600px;
   margin: 50px auto;
-  width: 300px;
+  padding: 20px;
+  background-color:#000000;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .skill {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
-.skill-name {
-  font-weight: bold;
+h2 {
+  text-align: center;
 }
 
-.skill-bar {
+.skill h3 {
+  margin: 0;
+}
+
+.bar {
   height: 20px;
-  background-color: #ccc;
-  position: relative;
-}
-
-.skill-bar::before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 0;
-  background-color:#0072ff;
+  background-color: #0072ff;
+  border-radius: 10px;
+  overflow: hidden;
   animation: fillWidth 2s ease-in-out forwards;
 }
 
-.html::before {
-  animation-delay: 0.5s;
-}
-
-.css::before {
-  animation-delay: 1s;
-}
-
-.javascript::before {
-  animation-delay: 1.5s;
+.bar div {
+  height: 100%;
+  width: 
 }
 
 @keyframes fillWidth {
-  from {
-    width: 0;
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
   }
-  to {
-    width: 100%;
-  }
-}
+  
 /*-------------projects----------*/
 .portfolio-item {
     
