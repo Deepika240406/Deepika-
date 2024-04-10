@@ -136,6 +136,17 @@ body{
     
 
 }
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    /* Adjust the top and left values as needed */
+  }
+
+  .logo img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+  }
 
 .container {
     padding: 20px 20%;
